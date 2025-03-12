@@ -45,7 +45,7 @@ namespace CapaDatos
             cmd_ActualizarVehiculos.Parameters.AddWithValue("@Marca", Marca);
             cmd_ActualizarVehiculos.Parameters.AddWithValue("@Modelo", Modelo);
             cmd_ActualizarVehiculos.Parameters.AddWithValue("@Año", Año);
-            cmd_ActualizarVehiculos.Parameters.AddWithValue("@Precio", Precio);
+            cmd_ActualizarVehiculos.Parameters.AddWithValue("@Precio", Precio); 
             cmd_ActualizarVehiculos.Parameters.AddWithValue("@Estado", Estado);
             cmd_ActualizarVehiculos.ExecuteNonQuery();
         }
